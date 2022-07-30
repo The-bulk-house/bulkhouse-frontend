@@ -10,6 +10,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+import LoginButton from "../Components/LoginButton.js"
 
 const pages = [
   <Button variant="inherit" href="/about">
@@ -33,7 +34,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="fixed" style={{ background: "#339933" }}>
+    <AppBar position="fixed" style={{ background: "#808080" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 100 }}>

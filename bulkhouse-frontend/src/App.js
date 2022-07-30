@@ -8,8 +8,8 @@ function App() {
       <BrowserRouter>
         <Navbar/>
           <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/workouts" element={<Workouts/>} />
+              <Route exact path="/"  element={<Home/>} />
+              <Route path="/workouts"  element={<Workouts/>} />
           </Routes>
       </BrowserRouter>
   );
