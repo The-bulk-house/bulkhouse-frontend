@@ -7,5 +7,23 @@
   }
   
   .div {
-    margin-top: 200px;
+    margin-top: 150px;
   }
+
+.headerword {
+  text-align: center;
+}
+
+/* ----------hero img---------- */
+
+.heroimg {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 10000px;
+  height: 75vh;
+}
+

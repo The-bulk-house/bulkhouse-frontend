@@ -11,6 +11,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import LoginButton from "../Components/LoginButton.js"
+import LogoutButton from "../Components/LogoutButton.js"
 
 const pages = [
   <Button variant="inherit" href="/about">
@@ -18,6 +19,9 @@ const pages = [
   </Button>,
   <Button variant="inherit" href="/workouts">
     <p className="navlinks">workouts</p>
+  </Button>,
+  <Button>
+    <LoginButton/>
   </Button>,
 ];
 

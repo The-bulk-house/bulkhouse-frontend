@@ -1,20 +1,13 @@
 import React from "react"
 import "../Styles/home.css"
-import LoginButton from "../Components/LoginButton";
-import LogoutButton from "../Components/LogoutButton";
-import Profile from "../Components/Profile";
+import bodybuilder from "../Images/bodybuilder.webp";
 
 const Home = () => {
       return (
         <body>
-          <div className="div">
-            <h1 className="word">Home page</h1>
-            <div>
-            <LoginButton/>
-            <LogoutButton/>
-            </div>
-            <div className="div">
-            <Profile/>
+          <div>
+            <div class="img-container">
+              <img class="heroimg" src={bodybuilder} alt="bulk" />
             </div>
           </div>
         </body>
